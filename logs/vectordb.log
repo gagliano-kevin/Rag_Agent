@@ -1544,3 +1544,17 @@ Collection name: None
 [2025-04-22 15:35:38,118] [INFO] Retrieving collection default_collection from the vector store
 [2025-04-22 15:35:38,119] [INFO] Collection names updated: ['default_collection', 'NLP_collection', 'RL_collection']
 [2025-04-22 15:35:38,119] [INFO] ******************** Finished: load_vector_store
+[2025-04-22 16:36:24,777] [INFO] Initializing VectorDB with db_location: ./default_chroma_db, embedding_function: SentenceTransformerEmbeddingFunction, collection_name: default_collection
+[2025-04-22 16:36:24,777] [INFO] ******************** Starting: load_vector_store
+[2025-04-22 16:36:24,778] [INFO] Loading vector store from ./default_chroma_db with collection name: default_collection
+[2025-04-22 16:36:24,778] [INFO] Creating a new client for the vector store at ./default_chroma_db
+[2025-04-22 16:36:24,870] [INFO] Retrieving collection default_collection from the vector store
+[2025-04-22 16:36:24,871] [INFO] Collection names updated: ['default_collection', 'NLP_collection', 'RL_collection']
+[2025-04-22 16:36:24,871] [INFO] ******************** Finished: load_vector_store
+[2025-04-22 16:47:34,018] [INFO] Initializing VectorDB with db_location: ./default_chroma_db, embedding_function: SentenceTransformerEmbeddingFunction, collection_name: default_collection
+[2025-04-22 16:47:34,018] [INFO] ******************** Starting: load_vector_store
+[2025-04-22 16:47:34,018] [INFO] Loading vector store from ./default_chroma_db with collection name: default_collection
+[2025-04-22 16:47:34,018] [INFO] Creating a new client for the vector store at ./default_chroma_db
+[2025-04-22 16:47:34,122] [INFO] Retrieving collection default_collection from the vector store
+[2025-04-22 16:47:34,127] [INFO] Collection names updated: ['default_collection', 'NLP_collection', 'RL_collection']
+[2025-04-22 16:47:34,127] [INFO] ******************** Finished: load_vector_store
