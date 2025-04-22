@@ -37,7 +37,7 @@ Here’s a preview of the application in action:
 ![Semantic Search](images/img2.png)
 
 ### 🔒 Authentication
-![Authentication] (images/img3.png)
+![Authentication](images/img3.png)
 
 
 
