@@ -49,7 +49,6 @@ Here’s a preview of the application in action:
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [ChromaDB](https://www.trychroma.com/)
 - [Gradio](https://www.gradio.app/)
-- [OpenAI API Key](https://platform.openai.com/)
 
 ### Installation
 

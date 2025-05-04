@@ -1558,3 +1558,800 @@ Collection name: None
 [2025-04-22 16:47:34,122] [INFO] Retrieving collection default_collection from the vector store
 [2025-04-22 16:47:34,127] [INFO] Collection names updated: ['default_collection', 'NLP_collection', 'RL_collection']
 [2025-04-22 16:47:34,127] [INFO] ******************** Finished: load_vector_store
+[2025-04-23 08:48:27,956] [INFO] Initializing VectorDB with db_location: ./default_chroma_db, embedding_function: SentenceTransformerEmbeddingFunction, collection_name: default_collection
+[2025-04-23 08:48:27,958] [INFO] ******************** Starting: load_vector_store
+[2025-04-23 08:48:27,958] [INFO] Loading vector store from ./default_chroma_db with collection name: default_collection
+[2025-04-23 08:48:27,959] [INFO] Creating a new client for the vector store at ./default_chroma_db
+[2025-04-23 08:48:28,278] [INFO] Retrieving collection default_collection from the vector store
+[2025-04-23 08:48:28,291] [INFO] Collection names updated: ['default_collection', 'NLP_collection', 'RL_collection']
+[2025-04-23 08:48:28,292] [INFO] ******************** Finished: load_vector_store
+[2025-04-23 08:49:57,600] [INFO] Provided arguments: ('gemma3:1b', True, 5, None)
+Model selected: gemma3:1b
+Use RAG: True
+K: 5
+Collection name: None
+
+[2025-04-23 08:49:57,822] [INFO] Message: {'text': 'describe it', 'files': ['/tmp/gradio/d8ce841429d6a2892c937ddd90d7382bd337a71718b1987ab1307826d67cc9b9/cv.pdf']},
+ History: []
+[2025-04-23 08:49:57,823] [INFO] Uploaded a file with path: /tmp/gradio/d8ce841429d6a2892c937ddd90d7382bd337a71718b1987ab1307826d67cc9b9/cv.pdf
+
+[2025-04-23 08:49:57,887] [INFO] Extracted text from the file: ['Kevin Gagliano\nAI STUDENT · COMPUTER ENGiNEER\nGrosseto, 58100, Tuscany, ITALY - 10/11/1997\n\uf10b(+39) 3208511893\n|\n\uf0e0gagliano.kevin.97@gmail.com\n|\n\uf092gagliano-kevin\n|\n\uf08ckevin-gagliano-0703a12a3\n“Pure mathematics is, in its way, the poetry of logical ideas”\nSummary\nDriven by an unrelenting passion for mathematics and its profound impact on artificial intelligence, I thrive on exploring the intricate mechanics\nthat power intelligent systems. With a Bachelor’s degree in Computer Engineering from Siena University and a Master’s in AI and Automation\nEngineering nearing completion, I am constantly seeking new challenges that push the boundaries of knowledge. The elegance of mathematical\nreasoning and the limitless potential of AI fuel my curiosity, inspiring me to contribute to the ever‑evolving world of information engineering with\ndedication and enthusiasm.\nEducation\nDepartment of Information Engineering and Mathematics, University of Siena\nSiena, Italy\nMSC iN ARTiFiCiAL INTELLiGENCE AND AUTOMATiON ENGiNEERiNG (INTELLiGENT SYSTEMS CURRiCULUM)\n2023 ‑ Present\n• Average Grade: 29.53/30\nDepartment of Information Engineering and Mathematics, University of Siena\nSiena, Italy\nBSC iN COMPUTER ENGiNEERiNG\n2019 ‑ 2023\n• Final Grade: 106/110\nWork Experience\nCatering industry\nGrosseto, Italy\nRESTAURANT MANAGER & WAITER\nJun. 2018 ‑ Present\n• Ristorante Canapone\n• Ristorante da Anna alle Rocchette\n• Pizzeria Godiva\n• Pizzeria Mezzo Metro\n• Bar Ristorante Pizzeria Casotto de Pescatori\nUniversità degli studi di Siena\nSiena, Italy\nUNiVERSiTY TUTOR\nFeb. 2022 ‑ Jun. 2022\n• Conducting educational tutoring activities for students enrolled in the first years of the Bachelor’s degree program in Computer Engineering at\nthe DIISM (Department of Computer Engineering and Mathematical Sciences) of Siena.\nSkills\nProgramming\nPython, C/C++, CUDA, PHP, JavaScript, RISC‑V Assembly, Prolog, Algorithms, Data Structures, GitHub/GIT, SQL\nBehavioural\nTeam‑Work, Problem Solving, Project Management, Clear Communication\nLanguages\nItalian (Native Speaker), English (B2 level)\nHonors & Awards\nScholarship Winner, Siena Artificial Intelligence Hub (SAIHub) scholarship 2023/2024\nSiena, Italy\nExtracurricular Activity\nSoftware Development Training and University Projects\nGiTHUB\n• High performance KNN Algorithm for classification tasks with CUDA and plain C programming language ‑ code.\n• Decoder‑Only Transformer Neural Network for text generation with Python and Pytorch ‑ code.\n• Collaborator in Reinforcement Learning and Dynamic Programming algorithms to play a Pac‑man game ‑ code\n• Collaborator in Reinforcement Learning algorithms to play a Hide and Seek game ‑ code\n• Collaborator in MLP library to implement a feed forward neural network ‑ code\n• Work in progress personal website with extended description of my projects ‑ portfolio\nMARCH 6, 2025\nKEViN GAGLiANO · RÉSUMÉ\n1\n']
+
+[2025-04-23 08:49:57,887] [INFO] HISTORY LANGCHAIN FORMAT: [SystemMessage(content='You are a helpful assistant.', additional_kwargs={}, response_metadata={})]
+
+[2025-04-23 08:49:57,888] [INFO] Updated history langchain format: [SystemMessage(content='You are a helpful assistant.', additional_kwargs={}, response_metadata={})]
+
+[2025-04-23 08:49:57,888] [INFO] User prompt: describe it
+
+[2025-04-23 08:49:57,888] [INFO] FULL USER PROMPT WAS BUILD (UPLOADED FILE): Kevin Gagliano
+AI STUDENT · COMPUTER ENGiNEER
+Grosseto, 58100, Tuscany, ITALY - 10/11/1997
+(+39) 3208511893
+|
+gagliano.kevin.97@gmail.com
+|
+gagliano-kevin
+|
+kevin-gagliano-0703a12a3
+“Pure mathematics is, in its way, the poetry of logical ideas”
+Summary
+Driven by an unrelenting passion for mathematics and its profound impact on artificial intelligence, I thrive on exploring the intricate mechanics
+that power intelligent systems. With a Bachelor’s degree in Computer Engineering from Siena University and a Master’s in AI and Automation
+Engineering nearing completion, I am constantly seeking new challenges that push the boundaries of knowledge. The elegance of mathematical
+reasoning and the limitless potential of AI fuel my curiosity, inspiring me to contribute to the ever‑evolving world of information engineering with
+dedication and enthusiasm.
+Education
+Department of Information Engineering and Mathematics, University of Siena
+Siena, Italy
+MSC iN ARTiFiCiAL INTELLiGENCE AND AUTOMATiON ENGiNEERiNG (INTELLiGENT SYSTEMS CURRiCULUM)
+2023 ‑ Present
+• Average Grade: 29.53/30
+Department of Information Engineering and Mathematics, University of Siena
+Siena, Italy
+BSC iN COMPUTER ENGiNEERiNG
+2019 ‑ 2023
+• Final Grade: 106/110
+Work Experience
+Catering industry
+Grosseto, Italy
+RESTAURANT MANAGER & WAITER
+Jun. 2018 ‑ Present
+• Ristorante Canapone
+• Ristorante da Anna alle Rocchette
+• Pizzeria Godiva
+• Pizzeria Mezzo Metro
+• Bar Ristorante Pizzeria Casotto de Pescatori
+Università degli studi di Siena
+Siena, Italy
+UNiVERSiTY TUTOR
+Feb. 2022 ‑ Jun. 2022
+• Conducting educational tutoring activities for students enrolled in the first years of the Bachelor’s degree program in Computer Engineering at
+the DIISM (Department of Computer Engineering and Mathematical Sciences) of Siena.
+Skills
+Programming
+Python, C/C++, CUDA, PHP, JavaScript, RISC‑V Assembly, Prolog, Algorithms, Data Structures, GitHub/GIT, SQL
+Behavioural
+Team‑Work, Problem Solving, Project Management, Clear Communication
+Languages
+Italian (Native Speaker), English (B2 level)
+Honors & Awards
+Scholarship Winner, Siena Artificial Intelligence Hub (SAIHub) scholarship 2023/2024
+Siena, Italy
+Extracurricular Activity
+Software Development Training and University Projects
+GiTHUB
+• High performance KNN Algorithm for classification tasks with CUDA and plain C programming language ‑ code.
+• Decoder‑Only Transformer Neural Network for text generation with Python and Pytorch ‑ code.
+• Collaborator in Reinforcement Learning and Dynamic Programming algorithms to play a Pac‑man game ‑ code
+• Collaborator in Reinforcement Learning algorithms to play a Hide and Seek game ‑ code
+• Collaborator in MLP library to implement a feed forward neural network ‑ code
+• Work in progress personal website with extended description of my projects ‑ portfolio
+MARCH 6, 2025
+KEViN GAGLiANO · RÉSUMÉ
+1
+
+ 
+describe it
+
+[2025-04-23 08:49:57,888] [INFO] ******************** Starting: retrieve_documents
+[2025-04-23 08:49:57,888] [INFO] Retrieving documents from the vector store
+[2025-04-23 08:49:57,888] [INFO] Performing a standard similarity search with query: ['describe it'], k: 5
+[2025-04-23 08:49:58,129] [INFO] Using results from the query to create output Document objects
+[2025-04-23 08:49:58,130] [INFO] ******************** Finished: retrieve_documents
+[2025-04-23 08:49:58,131] [INFO] Retrieved documents from the vector database: 
+
+[2025-04-23 08:49:58,131] [INFO] FULL PROMPT: Answer the following question: Kevin Gagliano
+AI STUDENT · COMPUTER ENGiNEER
+Grosseto, 58100, Tuscany, ITALY - 10/11/1997
+(+39) 3208511893
+|
+gagliano.kevin.97@gmail.com
+|
+gagliano-kevin
+|
+kevin-gagliano-0703a12a3
+“Pure mathematics is, in its way, the poetry of logical ideas”
+Summary
+Driven by an unrelenting passion for mathematics and its profound impact on artificial intelligence, I thrive on exploring the intricate mechanics
+that power intelligent systems. With a Bachelor’s degree in Computer Engineering from Siena University and a Master’s in AI and Automation
+Engineering nearing completion, I am constantly seeking new challenges that push the boundaries of knowledge. The elegance of mathematical
+reasoning and the limitless potential of AI fuel my curiosity, inspiring me to contribute to the ever‑evolving world of information engineering with
+dedication and enthusiasm.
+Education
+Department of Information Engineering and Mathematics, University of Siena
+Siena, Italy
+MSC iN ARTiFiCiAL INTELLiGENCE AND AUTOMATiON ENGiNEERiNG (INTELLiGENT SYSTEMS CURRiCULUM)
+2023 ‑ Present
+• Average Grade: 29.53/30
+Department of Information Engineering and Mathematics, University of Siena
+Siena, Italy
+BSC iN COMPUTER ENGiNEERiNG
+2019 ‑ 2023
+• Final Grade: 106/110
+Work Experience
+Catering industry
+Grosseto, Italy
+RESTAURANT MANAGER & WAITER
+Jun. 2018 ‑ Present
+• Ristorante Canapone
+• Ristorante da Anna alle Rocchette
+• Pizzeria Godiva
+• Pizzeria Mezzo Metro
+• Bar Ristorante Pizzeria Casotto de Pescatori
+Università degli studi di Siena
+Siena, Italy
+UNiVERSiTY TUTOR
+Feb. 2022 ‑ Jun. 2022
+• Conducting educational tutoring activities for students enrolled in the first years of the Bachelor’s degree program in Computer Engineering at
+the DIISM (Department of Computer Engineering and Mathematical Sciences) of Siena.
+Skills
+Programming
+Python, C/C++, CUDA, PHP, JavaScript, RISC‑V Assembly, Prolog, Algorithms, Data Structures, GitHub/GIT, SQL
+Behavioural
+Team‑Work, Problem Solving, Project Management, Clear Communication
+Languages
+Italian (Native Speaker), English (B2 level)
+Honors & Awards
+Scholarship Winner, Siena Artificial Intelligence Hub (SAIHub) scholarship 2023/2024
+Siena, Italy
+Extracurricular Activity
+Software Development Training and University Projects
+GiTHUB
+• High performance KNN Algorithm for classification tasks with CUDA and plain C programming language ‑ code.
+• Decoder‑Only Transformer Neural Network for text generation with Python and Pytorch ‑ code.
+• Collaborator in Reinforcement Learning and Dynamic Programming algorithms to play a Pac‑man game ‑ code
+• Collaborator in Reinforcement Learning algorithms to play a Hide and Seek game ‑ code
+• Collaborator in MLP library to implement a feed forward neural network ‑ code
+• Work in progress personal website with extended description of my projects ‑ portfolio
+MARCH 6, 2025
+KEViN GAGLiANO · RÉSUMÉ
+1
+
+ 
+describe it
+                Here is some context: 
+                Make sure to answer the question based on the context provided. Do not provide any additional information or opinions.
+                
+
+[2025-04-23 08:51:39,765] [INFO] Provided arguments: ('gemma3:1b', True, 5, 'NLP_collection')
+Model selected: gemma3:1b
+Use RAG: True
+K: 5
+Collection name: NLP_collection
+
+[2025-04-23 08:51:40,010] [INFO] ******************** Starting: switch_collection
+[2025-04-23 08:51:40,010] [INFO] Switching to collection 'NLP_collection'
+[2025-04-23 08:51:40,010] [INFO] Retrieving collection 'NLP_collection' from the vector store
+[2025-04-23 08:51:40,012] [INFO] ******************** Finished: switch_collection
+[2025-04-23 08:51:40,012] [INFO] Message: {'text': 'what is a transformer neural network?', 'files': []},
+ History: []
+[2025-04-23 08:51:40,012] [INFO] HISTORY LANGCHAIN FORMAT: [SystemMessage(content='You are a helpful assistant.', additional_kwargs={}, response_metadata={})]
+
+[2025-04-23 08:51:40,012] [INFO] Updated history langchain format: [SystemMessage(content='You are a helpful assistant.', additional_kwargs={}, response_metadata={})]
+
+[2025-04-23 08:51:40,012] [INFO] User prompt: what is a transformer neural network?
+
+[2025-04-23 08:51:40,013] [INFO] FULL USER PROMPT WAS BUILD (NO FILE UPLOADED): what is a transformer neural network?
+
+[2025-04-23 08:51:40,013] [INFO] ******************** Starting: retrieve_documents
+[2025-04-23 08:51:40,013] [INFO] Retrieving documents from the vector store
+[2025-04-23 08:51:40,013] [INFO] Performing a standard similarity search with query: ['what is a transformer neural network?'], k: 5
+[2025-04-23 08:51:40,255] [INFO] Using results from the query to create output Document objects
+[2025-04-23 08:51:40,255] [INFO] ******************** Finished: retrieve_documents
+[2025-04-23 08:51:40,256] [INFO] Retrieved documents from the vector database: 202
+CHAPTER 9
+•
+THE TRANSFORMER
+Here’s a summary of the main points that we covered:
+• Transformers are non-recurrent networks based on multi-head attention, a
+kind of self-attention. A multi-head attention computation takes an input
+vector xi and maps it to an output ai by adding in vectors from prior tokens,
+weighted by how relevant they are for the processing of the current word.
+• A transformer block consists of a residual stream in which the input from
+the prior layer is passed up to the next layer, with the output of different com-
+ponents added to it. These components include a multi-head attention layer
+followed by a feedforward layer, each preceded by layer normalizations.
+Transformer blocks are stacked to make deeper and more powerful networks.
+• The input to a transformer is computed by adding an embedding (computed
+with an embedding matrix) to a positional encoding that represents the se-
+quential position of the token in the window.
+• Language models can be built out of stacks of transformer blocks, with a
+language model head at the top, which applies an unembedding matrix to
+the output H of the top layer to generate the logits, which are then passed
+through a softmax to generate word probabilities.
+• Transformer-based language models have a wide context window (200K to-
+kens or even more for very large models with special mechanisms) allowing
+them to draw on enormous amounts of context to predict upcoming words.
+Bibliographical and Historical Notes
+The transformer (Vaswani et al., 2017) was developed drawing on two lines of prior
+research: self-attention and memory networks.
+Encoder-decoder attention, the idea of using a soft weighting over the encodings
+of input words to inform a generative decoder (see Chapter 13) was developed by
+Graves (2013) in the context of handwriting generation, and Bahdanau et al. (2015)
+for MT. This idea was extended to self-attention by dropping the need for separate
+encoding and decoding sequences and instead seeing attention as a way of weighting
+the tokens in collecting information passed from lower layers to higher layers (Ling
+et al., 2015; Cheng et al., 2016; Liu et al., 2016).
+Other aspects of the transformer, including the terminology of key, query, and
+value, came from memory networks, a mechanism for adding an external read-
+write memory to networks, by using an embedding of a query to match keys rep-
+resenting content in an associative memory (Sukhbaatar et al., 2015; Weston et al.,
+2015; Graves et al., 2014).
+MORE HISTORY TBD IN NEXT DRAFT.
+
+132
+CHAPTER 7
+•
+NEURAL NETWORKS
+CHAPTER
+7
+Neural Networks
+“[M]achines of this character can behave in a very complicated manner when
+the number of units is large.”
+Alan Turing (1948) “Intelligent Machines”, page 6
+Neural networks are a fundamental computational tool for language process-
+ing, and a very old one. They are called neural because their origins lie in the
+McCulloch-Pitts neuron (McCulloch and Pitts, 1943), a simpliﬁed model of the
+biological neuron as a kind of computing element that could be described in terms
+of propositional logic. But the modern use in language processing no longer draws
+on these early biological inspirations.
+Instead, a modern neural network is a network of small computing units, each
+of which takes a vector of input values and produces a single output value. In this
+chapter we introduce the neural net applied to classiﬁcation. The architecture we
+introduce is called a feedforward network because the computation proceeds iter-
+feedforward
+atively from one layer of units to the next. The use of modern neural nets is often
+called deep learning, because modern networks are often deep (have many layers).
+deep learning
+Neural networks share much of the same mathematics as logistic regression. But
+neural networks are a more powerful classiﬁer than logistic regression, and indeed a
+minimal neural network (technically one with a single ‘hidden layer’) can be shown
+to learn any function.
+Neural net classiﬁers are different from logistic regression in another way. With
+logistic regression, we applied the regression classiﬁer to many different tasks by
+developing many rich kinds of feature templates based on domain knowledge. When
+working with neural networks, it is more common to avoid most uses of rich hand-
+derived features, instead building neural networks that take raw words as inputs
+and learn to induce features as part of the process of learning to classify. We saw
+examples of this kind of representation learning for embeddings in Chapter 6. Nets
+that are very deep are particularly good at representation learning. For that reason
+deep neural nets are the right tool for tasks that offer sufﬁcient data to learn features
+automatically.
+In this chapter we’ll introduce feedforward networks as classiﬁers, and also ap-
+ply them to the simple task of language modeling: assigning probabilities to word
+sequences and predicting upcoming words. In subsequent chapters we’ll introduce
+many other aspects of neural models, such as recurrent neural networks (Chap-
+ter 8), the Transformer (Chapter 9), and masked language modeling (Chapter 11).
+
+192
+CHAPTER 9
+•
+THE TRANSFORMER
+and layer norm computations in the context of processing a single input xi at token
+position i.
+Feedforward layer
+The feedforward layer is a fully-connected 2-layer network,
+i.e., one hidden layer, two weight matrices, as introduced in Chapter 7. The weights
+are the same for each token position i , but are different from layer to layer. It
+is common to make the dimensionality dff of the hidden layer of the feedforward
+network be larger than the model dimensionality d. (For example in the original
+transformer model, d = 512 and dff = 2048.)
+FFN(xi) = ReLU(xiW1 +b1)W2 +b2
+(9.21)
+Layer Norm
+At two stages in the transformer block we normalize the vector (Ba
+et al., 2016). This process, called layer norm (short for layer normalization), is one
+layer norm
+of many forms of normalization that can be used to improve training performance
+in deep neural networks by keeping the values of a hidden layer in a range that
+facilitates gradient-based training.
+Layer norm is a variation of the z-score from statistics, applied to a single vec-
+tor in a hidden layer. That is, the term layer norm is a bit confusing; layer norm
+is not applied to an entire transformer layer, but just to the embedding vector of a
+single token. Thus the input to layer norm is a single vector of dimensionality d
+and the output is that vector normalized, again of dimensionality d. The ﬁrst step in
+layer normalization is to calculate the mean, µ, and standard deviation, σ, over the
+elements of the vector to be normalized. Given an embedding vector x of dimen-
+sionality d, these values are calculated as follows.
+µ = 1
+d
+d
+X
+i=1
+xi
+(9.22)
+σ =
+v
+u
+u
+t1
+d
+d
+X
+i=1
+(xi −µ)2
+(9.23)
+Given these values, the vector components are normalized by subtracting the mean
+from each and dividing by the standard deviation. The result of this computation is
+a new vector with zero mean and a standard deviation of one.
+ˆx = (x−µ)
+σ
+(9.24)
+Finally, in the standard implementation of layer normalization, two learnable param-
+eters, γ and β, representing gain and offset values, are introduced.
+LayerNorm(x) = γ (x−µ)
+σ
++β
+(9.25)
+Putting it all together
+The function computed by a transformer block can be ex-
+pressed by breaking it down with one equation for each component computation,
+using t (of shape [1 × d]) to stand for transformer and superscripts to demarcate
+
+184
+CHAPTER 9
+•
+THE TRANSFORMER
+CHAPTER
+9
+The Transformer
+“The true art of memory is the art of attention ”
+Samuel Johnson, Idler #74, September 1759
+In this chapter we introduce the transformer, the standard architecture for build-
+ing large language models. Transformer-based large language models have com-
+pletely changed the ﬁeld of speech and language processing. Indeed, every subse-
+quent chapter in this textbook will make use of them. We’ll focus for now on left-
+to-right (sometimes called causal or autoregressive) language modeling, in which
+we are given a sequence of input tokens and predict output tokens one by one by
+conditioning on the prior context.
+The transformer is a neural network with a speciﬁc structure that includes a
+mechanism called self-attention or multi-head attention.1 Attention can be thought
+of as a way to build contextual representations of a token’s meaning by attending to
+and integrating information from surrounding tokens, helping the model learn how
+tokens relate to each other over large spans.
+Stacked
+Transformer
+Blocks
+So
+long
+and
+thanks
+for
+long
+and
+thanks
+for
+Next token
+all
+…
+…
+…
+U
+Input tokens
+x1
+x2
+Language
+Modeling
+Head
+x3
+x4
+x5
+Input
+Encoding
+E
+1
++
+E
+2
++
+E
+3
++
+E
+4
++
+E
+5
++
+…
+…
+…
+…
+…
+U
+U
+U
+U
+…
+logits
+logits
+logits
+logits
+logits
+Figure 9.1
+The architecture of a (left-to-right) transformer, showing how each input token
+get encoded, passed through a set of stacked transformer blocks, and then a language model
+head that predicts the next token.
+Fig. 9.1 sketches the transformer architecture. A transformer has three major
+components. At the center are columns of transformer blocks. Each block is a
+multilayer network (a multi-head attention layer, feedforward networks and layer
+normalization steps) that maps an input vector xi in column i (corresponding to input
+1
+Although multi-head attention developed historically from the RNN attention mechanism (Chapter 8),
+we’ll deﬁne attention from scratch here for readers who haven’t yet read Chapter 8.
+
+9.2
+•
+TRANSFORMER BLOCKS
+191
+9.2
+Transformer Blocks
+The self-attention calculation lies at the core of what’s called a transformer block,
+which, in addition to the self-attention layer, includes three other kinds of layers: (1)
+a feedforward layer, (2) residual connections, and (3) normalizing layers (colloqui-
+ally called “layer norm”).
+Layer Norm
+xi
++
+hi-1
+Layer Norm
+MultiHead
+Attention
+Feedforward
+xi-1
+xi+1
+hi
+hi+1
++
+…
+…
+Residual
+Stream
+Figure 9.6
+The architecture of a transformer block showing the residual stream. This
+ﬁgure shows the prenorm version of the architecture, in which the layer norms happen before
+the attention and feedforward layers rather than after.
+Fig. 9.6 illustrates a transformer block, sketching a common way of thinking
+about the block that is called the residual stream (Elhage et al., 2021). In the resid-
+residual stream
+ual stream viewpoint, we consider the processing of an individual token i through
+the transformer block as a single stream of d-dimensional representations for token
+position i. This residual stream starts with the original input vector, and the various
+components read their input from the residual stream and add their output back into
+the stream.
+The input at the bottom of the stream is an embedding for a token, which has
+dimensionality d. This initial embedding gets passed up (by residual connections),
+and is progressively added to by the other components of the transformer: the at-
+tention layer that we have seen, and the feedforward layer that we will introduce.
+Before the attention and feedforward layer is a computation called the layer norm.
+Thus the initial vector is passed through a layer norm and attention layer, and
+the result is added back into the stream, in this case to the original input vector
+xi. And then this summed vector is again passed through another layer norm and a
+feedforward layer, and the output of those is added back into the residual, and we’ll
+use hi to refer to the resulting output of the transformer block for token i. (In earlier
+descriptions the residual stream was often described using a different metaphor as
+residual connections that add the input of a component to its output, but the residual
+stream is a more perspicuous way of visualizing the transformer.)
+We’ve already seen the attention layer, so let’s now introduce the feedforward
+
+
+[2025-04-23 08:51:40,256] [INFO] FULL PROMPT: Answer the following question: what is a transformer neural network?
+                Here is some context: 202
+CHAPTER 9
+•
+THE TRANSFORMER
+Here’s a summary of the main points that we covered:
+• Transformers are non-recurrent networks based on multi-head attention, a
+kind of self-attention. A multi-head attention computation takes an input
+vector xi and maps it to an output ai by adding in vectors from prior tokens,
+weighted by how relevant they are for the processing of the current word.
+• A transformer block consists of a residual stream in which the input from
+the prior layer is passed up to the next layer, with the output of different com-
+ponents added to it. These components include a multi-head attention layer
+followed by a feedforward layer, each preceded by layer normalizations.
+Transformer blocks are stacked to make deeper and more powerful networks.
+• The input to a transformer is computed by adding an embedding (computed
+with an embedding matrix) to a positional encoding that represents the se-
+quential position of the token in the window.
+• Language models can be built out of stacks of transformer blocks, with a
+language model head at the top, which applies an unembedding matrix to
+the output H of the top layer to generate the logits, which are then passed
+through a softmax to generate word probabilities.
+• Transformer-based language models have a wide context window (200K to-
+kens or even more for very large models with special mechanisms) allowing
+them to draw on enormous amounts of context to predict upcoming words.
+Bibliographical and Historical Notes
+The transformer (Vaswani et al., 2017) was developed drawing on two lines of prior
+research: self-attention and memory networks.
+Encoder-decoder attention, the idea of using a soft weighting over the encodings
+of input words to inform a generative decoder (see Chapter 13) was developed by
+Graves (2013) in the context of handwriting generation, and Bahdanau et al. (2015)
+for MT. This idea was extended to self-attention by dropping the need for separate
+encoding and decoding sequences and instead seeing attention as a way of weighting
+the tokens in collecting information passed from lower layers to higher layers (Ling
+et al., 2015; Cheng et al., 2016; Liu et al., 2016).
+Other aspects of the transformer, including the terminology of key, query, and
+value, came from memory networks, a mechanism for adding an external read-
+write memory to networks, by using an embedding of a query to match keys rep-
+resenting content in an associative memory (Sukhbaatar et al., 2015; Weston et al.,
+2015; Graves et al., 2014).
+MORE HISTORY TBD IN NEXT DRAFT.
+
+132
+CHAPTER 7
+•
+NEURAL NETWORKS
+CHAPTER
+7
+Neural Networks
+“[M]achines of this character can behave in a very complicated manner when
+the number of units is large.”
+Alan Turing (1948) “Intelligent Machines”, page 6
+Neural networks are a fundamental computational tool for language process-
+ing, and a very old one. They are called neural because their origins lie in the
+McCulloch-Pitts neuron (McCulloch and Pitts, 1943), a simpliﬁed model of the
+biological neuron as a kind of computing element that could be described in terms
+of propositional logic. But the modern use in language processing no longer draws
+on these early biological inspirations.
+Instead, a modern neural network is a network of small computing units, each
+of which takes a vector of input values and produces a single output value. In this
+chapter we introduce the neural net applied to classiﬁcation. The architecture we
+introduce is called a feedforward network because the computation proceeds iter-
+feedforward
+atively from one layer of units to the next. The use of modern neural nets is often
+called deep learning, because modern networks are often deep (have many layers).
+deep learning
+Neural networks share much of the same mathematics as logistic regression. But
+neural networks are a more powerful classiﬁer than logistic regression, and indeed a
+minimal neural network (technically one with a single ‘hidden layer’) can be shown
+to learn any function.
+Neural net classiﬁers are different from logistic regression in another way. With
+logistic regression, we applied the regression classiﬁer to many different tasks by
+developing many rich kinds of feature templates based on domain knowledge. When
+working with neural networks, it is more common to avoid most uses of rich hand-
+derived features, instead building neural networks that take raw words as inputs
+and learn to induce features as part of the process of learning to classify. We saw
+examples of this kind of representation learning for embeddings in Chapter 6. Nets
+that are very deep are particularly good at representation learning. For that reason
+deep neural nets are the right tool for tasks that offer sufﬁcient data to learn features
+automatically.
+In this chapter we’ll introduce feedforward networks as classiﬁers, and also ap-
+ply them to the simple task of language modeling: assigning probabilities to word
+sequences and predicting upcoming words. In subsequent chapters we’ll introduce
+many other aspects of neural models, such as recurrent neural networks (Chap-
+ter 8), the Transformer (Chapter 9), and masked language modeling (Chapter 11).
+
+192
+CHAPTER 9
+•
+THE TRANSFORMER
+and layer norm computations in the context of processing a single input xi at token
+position i.
+Feedforward layer
+The feedforward layer is a fully-connected 2-layer network,
+i.e., one hidden layer, two weight matrices, as introduced in Chapter 7. The weights
+are the same for each token position i , but are different from layer to layer. It
+is common to make the dimensionality dff of the hidden layer of the feedforward
+network be larger than the model dimensionality d. (For example in the original
+transformer model, d = 512 and dff = 2048.)
+FFN(xi) = ReLU(xiW1 +b1)W2 +b2
+(9.21)
+Layer Norm
+At two stages in the transformer block we normalize the vector (Ba
+et al., 2016). This process, called layer norm (short for layer normalization), is one
+layer norm
+of many forms of normalization that can be used to improve training performance
+in deep neural networks by keeping the values of a hidden layer in a range that
+facilitates gradient-based training.
+Layer norm is a variation of the z-score from statistics, applied to a single vec-
+tor in a hidden layer. That is, the term layer norm is a bit confusing; layer norm
+is not applied to an entire transformer layer, but just to the embedding vector of a
+single token. Thus the input to layer norm is a single vector of dimensionality d
+and the output is that vector normalized, again of dimensionality d. The ﬁrst step in
+layer normalization is to calculate the mean, µ, and standard deviation, σ, over the
+elements of the vector to be normalized. Given an embedding vector x of dimen-
+sionality d, these values are calculated as follows.
+µ = 1
+d
+d
+X
+i=1
+xi
+(9.22)
+σ =
+v
+u
+u
+t1
+d
+d
+X
+i=1
+(xi −µ)2
+(9.23)
+Given these values, the vector components are normalized by subtracting the mean
+from each and dividing by the standard deviation. The result of this computation is
+a new vector with zero mean and a standard deviation of one.
+ˆx = (x−µ)
+σ
+(9.24)
+Finally, in the standard implementation of layer normalization, two learnable param-
+eters, γ and β, representing gain and offset values, are introduced.
+LayerNorm(x) = γ (x−µ)
+σ
++β
+(9.25)
+Putting it all together
+The function computed by a transformer block can be ex-
+pressed by breaking it down with one equation for each component computation,
+using t (of shape [1 × d]) to stand for transformer and superscripts to demarcate
+
+184
+CHAPTER 9
+•
+THE TRANSFORMER
+CHAPTER
+9
+The Transformer
+“The true art of memory is the art of attention ”
+Samuel Johnson, Idler #74, September 1759
+In this chapter we introduce the transformer, the standard architecture for build-
+ing large language models. Transformer-based large language models have com-
+pletely changed the ﬁeld of speech and language processing. Indeed, every subse-
+quent chapter in this textbook will make use of them. We’ll focus for now on left-
+to-right (sometimes called causal or autoregressive) language modeling, in which
+we are given a sequence of input tokens and predict output tokens one by one by
+conditioning on the prior context.
+The transformer is a neural network with a speciﬁc structure that includes a
+mechanism called self-attention or multi-head attention.1 Attention can be thought
+of as a way to build contextual representations of a token’s meaning by attending to
+and integrating information from surrounding tokens, helping the model learn how
+tokens relate to each other over large spans.
+Stacked
+Transformer
+Blocks
+So
+long
+and
+thanks
+for
+long
+and
+thanks
+for
+Next token
+all
+…
+…
+…
+U
+Input tokens
+x1
+x2
+Language
+Modeling
+Head
+x3
+x4
+x5
+Input
+Encoding
+E
+1
++
+E
+2
++
+E
+3
++
+E
+4
++
+E
+5
++
+…
+…
+…
+…
+…
+U
+U
+U
+U
+…
+logits
+logits
+logits
+logits
+logits
+Figure 9.1
+The architecture of a (left-to-right) transformer, showing how each input token
+get encoded, passed through a set of stacked transformer blocks, and then a language model
+head that predicts the next token.
+Fig. 9.1 sketches the transformer architecture. A transformer has three major
+components. At the center are columns of transformer blocks. Each block is a
+multilayer network (a multi-head attention layer, feedforward networks and layer
+normalization steps) that maps an input vector xi in column i (corresponding to input
+1
+Although multi-head attention developed historically from the RNN attention mechanism (Chapter 8),
+we’ll deﬁne attention from scratch here for readers who haven’t yet read Chapter 8.
+
+9.2
+•
+TRANSFORMER BLOCKS
+191
+9.2
+Transformer Blocks
+The self-attention calculation lies at the core of what’s called a transformer block,
+which, in addition to the self-attention layer, includes three other kinds of layers: (1)
+a feedforward layer, (2) residual connections, and (3) normalizing layers (colloqui-
+ally called “layer norm”).
+Layer Norm
+xi
++
+hi-1
+Layer Norm
+MultiHead
+Attention
+Feedforward
+xi-1
+xi+1
+hi
+hi+1
++
+…
+…
+Residual
+Stream
+Figure 9.6
+The architecture of a transformer block showing the residual stream. This
+ﬁgure shows the prenorm version of the architecture, in which the layer norms happen before
+the attention and feedforward layers rather than after.
+Fig. 9.6 illustrates a transformer block, sketching a common way of thinking
+about the block that is called the residual stream (Elhage et al., 2021). In the resid-
+residual stream
+ual stream viewpoint, we consider the processing of an individual token i through
+the transformer block as a single stream of d-dimensional representations for token
+position i. This residual stream starts with the original input vector, and the various
+components read their input from the residual stream and add their output back into
+the stream.
+The input at the bottom of the stream is an embedding for a token, which has
+dimensionality d. This initial embedding gets passed up (by residual connections),
+and is progressively added to by the other components of the transformer: the at-
+tention layer that we have seen, and the feedforward layer that we will introduce.
+Before the attention and feedforward layer is a computation called the layer norm.
+Thus the initial vector is passed through a layer norm and attention layer, and
+the result is added back into the stream, in this case to the original input vector
+xi. And then this summed vector is again passed through another layer norm and a
+feedforward layer, and the output of those is added back into the residual, and we’ll
+use hi to refer to the resulting output of the transformer block for token i. (In earlier
+descriptions the residual stream was often described using a different metaphor as
+residual connections that add the input of a component to its output, but the residual
+stream is a more perspicuous way of visualizing the transformer.)
+We’ve already seen the attention layer, so let’s now introduce the feedforward
+
+                Make sure to answer the question based on the context provided. Do not provide any additional information or opinions.
+                
+
